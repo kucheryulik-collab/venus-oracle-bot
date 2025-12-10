@@ -373,7 +373,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     else:
         extra = (
             "Чтобы сделать прогнозы более персональными, отправь дату рождения командой:\n"
-            "`/birth 21.09.1978`"
+            "`/birth ДД.ММ.ГГГГ`"
         )
 
     text = (
