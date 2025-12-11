@@ -19,7 +19,7 @@ from telegram.ext import (
 # ================== НАСТРОЙКИ ==================
 
 # ВСТАВЬ СВОЙ ТОКЕН СЮДА или задай переменную окружения BOT_TOKEN на Render
-TOKEN = "8278378679:AAFRwp6R_L3000rq7aBiIQI_cUoq_EGxl4o"
+TOKEN = "8278378679:AAFvOBs5O5EQIHHCxSoSrkc6vgaW5ZGYFr4"
 
 # Клавиатура с основными кнопками
 MAIN_KEYBOARD = ReplyKeyboardMarkup(
