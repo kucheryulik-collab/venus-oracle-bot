@@ -235,7 +235,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         "Чтобы мои прогнозы точнее подстраивались под твой путь, "
         "напиши, пожалуйста, *дату рождения* в формате:\n"
         "`ДД.MM.ГГГГ`\n\n"
-        "Например: `23.06.1993`.\n\n"
+        "Например: `ДД.ММ.ГГГГ`.\n\n"
     )
 
     await update.message.reply_text(
