@@ -236,8 +236,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         "напиши, пожалуйста, *дату рождения* в формате:\n"
         "`ДД.MM.ГГГГ`\n\n"
         "Например: `23.06.1993`.\n\n"
-        "После этого я попрошу тебя ещё подсказать текущее время, "
-        "чтобы в 7:30 именно твоего утра присылать тебе небольшую настройку на день 💛"
     )
 
     await update.message.reply_text(
@@ -459,7 +457,7 @@ async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
 # ================== ЗАПУСК ПРИЛОЖЕНИЯ ==================
 
 def main() -> None:
-    if not TOKEN or TOKEN == "PASTE_YOUR_TOKEN_HERE":
+    if not TOKEN or TOKEN == "8278378679:AAFvOBs5O5EQIHHCxSoSrkc6vgaW5ZGYFr4":
         raise RuntimeError("Нужно указать токен бота в переменной TOKEN или BOT_TOKEN.")
 
     application = Application.builder().token(TOKEN).build()
