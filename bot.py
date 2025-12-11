@@ -457,7 +457,7 @@ async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
 # ================== ЗАПУСК ПРИЛОЖЕНИЯ ==================
 
 def main() -> None:
-    if not TOKEN or TOKEN == "8278378679:AAFvOBs5O5EQIHHCxSoSrkc6vgaW5ZGYFr4":
+    if not TOKEN or TOKEN == "PASTE_YOUR_TOKEN_HERE":
         raise RuntimeError("Нужно указать токен бота в переменной TOKEN или BOT_TOKEN.")
 
     application = Application.builder().token(TOKEN).build()
